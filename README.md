@@ -35,7 +35,7 @@ python3 -m pip install -r Text_Captcha_Breaker/requirements.txt
 ```python
 from Text_Captcha_Breaker.app import get_text
 
-input_path = os.path.join(input_directory, filename)
+input_path = "/path/to/image.png"
 text,_ = get_text(image_path)
 print(f"Result: {text}")
 ```
