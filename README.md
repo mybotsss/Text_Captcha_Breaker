@@ -44,6 +44,4 @@ print(f"Result: {text}")
 
 ## API Serve
 
-- If you want to use the interface and API similar to [Hugging Face](https://huggingface.co/spaces/docparser/Text_Captcha_breaker), uncomment the `gr.Interface` section in `Text_Captcha_Breaker.app`.
-
-`python3 -m pip install gradio`
+If you want to use the interface and API similar to [Hugging Face](https://huggingface.co/spaces/docparser/Text_Captcha_breaker), uncomment the `gr.Interface` section in `Text_Captcha_Breaker.app`.

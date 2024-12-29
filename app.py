@@ -5,7 +5,7 @@ from torchvision import transforms as T
 from PIL import Image
 from .tokenizer_base import Tokenizer
 import os
-#import gradio as gr
+import gradio as gr
 
 
 current_dir = os.path.dirname(__file__)
