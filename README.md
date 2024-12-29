@@ -20,10 +20,9 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 
 ## Usage
 
-- Clone this project on your project's directory:
+- Clone this repository on your project's directory:
 
 ```bash
-# Clone this repository into your project directory
 cd <your_project_dir>
 git clone https://github.com/mybotsss/Text_Captcha_Breaker.git
 # Check file size of captcha.onnx (It has to be: ~90MB)
