@@ -41,3 +41,9 @@ print(f"Result: {text}")
 ```
 
 - Check `ex_usage.py` file.
+
+## API Serve
+
+- If you want to use the interface and API similar to Hugging Face, uncomment the `gr.Interface` section in `Text_Captcha_Breaker.app`.
+
+`python3 -m pip install gradio`
