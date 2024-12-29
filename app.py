@@ -53,12 +53,12 @@ transform,ort_session = initialize_model(model_file=model_file)
 #     inputs=gr.Image(type="pil"),
 #     outputs=gr.Textbox(),
 #     title="Text Captcha Reader",
-#     examples=["8000.png","11JW29.png","2a8486.jpg","2nbcx.png",
-#              "000679.png","000HU.png","00Uga.png.jpg","00bAQwhAZU.jpg",
-#              "00h57kYf.jpg","0EoHdtVb.png","0JS21.png","0p98z.png","10010.png"]
+#     examples=["images/8000.png","images/11JW29.png","images/2a8486.jpg","images/2nbcx.png",
+#              "000679.png","images/000HU.png","images/00Uga.png.jpg","images/00bAQwhAZU.jpg",
+#              "00h57kYf.jpg","images/0EoHdtVb.png","images/0JS21.png","images/0p98z.png","images/10010.png"]
 # ).launch()
 
 # if __name__ == "__main__":
-#     image_path = "8000.png"
+#     image_path = "images/8000.png"
 #     text,_ = get_text(image_path)
 #     print(text)
